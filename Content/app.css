@@ -1,0 +1,29 @@
+/* custom css goes here */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+    color: magenta;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 70px;
+    background-image: url(/Users/user/Desktop/COMP125-S2016-assignment4/Assets/images/13962539_1075002055925742_5760286010355068068_n.jpg);
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;    
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+
+
+
+
+#canvas{
+    border: 0px black solid;
+    border-radius: 5px;
+    float: center;
+    margin-right: 80px;
+    margin-left: 80px;
+}
