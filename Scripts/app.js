@@ -3,11 +3,12 @@
 /**
  * FileName: app.js
  *
- * @author Tom Tsiliopoulos
- * @date August 3, 2016
+ * @author Dhruti Patel
+ * @date August 19, 2016
  *
- * StudentID: 300818557
- *
+ * StudentID: 300877959
+ * 
+   Github : dhruti15/comp125-assignment4
  * @description This file is the main javascript file for the web site
  */
 // IIFE - Immediately Invoked Function Expression
@@ -88,6 +89,15 @@ var core;
         stage.addChild(clickMeButton);
         clickMeButton.on("click", clickMeButton_clicked);
     }
+
+
+    /*
+      Function : Clock
+      Purpose : The logic and the rortaion of the clock
+      Date : 19 August 2016
+
+
+    **/
     function clock(){
   var now = new Date();
   var ctx = document.getElementById('canvas1').getContext('2d');
